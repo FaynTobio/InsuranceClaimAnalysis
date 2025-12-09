@@ -1,4 +1,3 @@
--- Task 2: Data Population
 -- Insert realistic sample data into each table, ensuring a variety of scenarios are represented, 
 -- such as different policy types, claim amounts, and customer profiles.
 
