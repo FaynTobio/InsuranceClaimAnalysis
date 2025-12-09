@@ -1,4 +1,3 @@
--- Task 3: Analytical Queries
 -- Write a query to calculate the total number of claims per policy type.
 -- Use analytical functions to determine the monthly claim frequency and average claim amount.
 SELECT
@@ -17,7 +16,7 @@ ORDER BY
 
 ----------------------------------
 
---- Query 2: Monthly Claim Frequency and Average Claim Amount
+--- Monthly Claim Frequency and Average Claim Amount
 
 SELECT
     DATE_TRUNC('month', ClaimDate) AS ClaimMonth,
@@ -29,3 +28,4 @@ GROUP BY
     ClaimMonth
 ORDER BY
     ClaimMonth;
+
