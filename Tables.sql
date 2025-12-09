@@ -1,4 +1,3 @@
--- Task 1: Database Schema Creation
 -- Define tables: Customers, Policies, Claims, PolicyTypes.
     -- Include fields such as CustomerID, PolicyID, ClaimID, PolicyTypeID, ClaimAmount, ClaimDate, 
 	-- PolicyStartDate, PolicyEndDate, etc.
@@ -45,5 +44,6 @@ CREATE TABLE Claims (
     ClaimDescription TEXT,
     ClaimStatus VARCHAR(50)
 );
+
 
 Select * from claims
